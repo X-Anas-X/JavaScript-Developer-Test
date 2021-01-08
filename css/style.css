@@ -1,0 +1,88 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+    background-image: url(https://miro.medium.com/max/2400/1*EvMbMNRHm_aOf1n4tDO1Xg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+div#allSecs {
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255 218 224 / 73%);
+    border-radius: 20px;
+}
+
+section#sec1 {
+    margin-left: 5%;
+    font-family: cursive;
+}
+
+
+section#sec2 {
+margin-left: 65%;
+font-family: cursive;
+}
+
+form#form {
+    text-align: center;
+    margin-top: 11%;
+}
+
+button#play {
+    margin-top: 3%;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffff00;
+    /* border: none; */
+    color: blue;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+input#inChar {
+    margin-right: 5%;
+    padding: 5px 15px 5px 15px;
+    background-color: #bdffe9;
+}
+
+input#inATK {
+    /* margin-right: 5%; */
+    padding: 5px 15px 5px 15px;
+    background-color: #bdffe9;
+}
+
+div#attack {
+    text-align: center;
+}
+
+button#atk {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+
+    /* animation: shake 0.5s;
+  animation-iteration-count: 1s;
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } */
+
+}
+
